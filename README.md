@@ -36,17 +36,25 @@ Hi, I'm Mona. You might recognize me as GitHub's mascot.
 When we have 2 or more headings, GitHub automatically generates table of contents
 
 **This is bold text**
+
 * *This is italic text* *
+* 
   ~~This is strikethrough text~~
+  
   **This is bold and _nested italic_**
+  
   ***This is all bold and italic***
+  
   This is a <sub>subscript</sub> text
+  
   This is a <sup>superscript</sup> text
 
   Text that is not a quote
+  
 > Text that is a quote
 
 We can use backticks to quote code without formatting (for inline code quotes)
+
 Use `git status` to list all new or modified files that haven't yet been committed.
 
 To format code or text into a quote block, use triple backticks
