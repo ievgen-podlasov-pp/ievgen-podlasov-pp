@@ -65,4 +65,14 @@ git status
 git add
 git commit
 ```
+We can also use backticks to visualize colors like `#ffffff` for white or `#000000` for black
+Supported formats are: 
+hex (#RRGGBB, for example `#0969DA`)
+rgb (rgb(R,G,B), for example `rgb(9, 105, 218)`)
+hsl (hsl(H,S,L), for example `hsl(212, 92%, 45%)`)
+(this only works in issues, pull requests and discussions, but not in readme)
+
+This is a [link to the GitHub main page](https://github.com/)
+
+
 
