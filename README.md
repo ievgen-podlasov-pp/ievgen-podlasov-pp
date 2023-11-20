@@ -74,5 +74,75 @@ hsl (hsl(H,S,L), for example `hsl(212, 92%, 45%)`)
 
 This is a [link to the GitHub main page](https://github.com/)
 
+This is a relative link to the [contributing.md file in the docs folder](docs/CONTRIBUTING.md) Github correctly handles branches. Preferred as it is more reliable when cloning a repository.
+/ means repository root, also supports ./ and ../ syntax
+
+To show image with an alternative text:
+![Here be alternative text](https://myoctocat.com/assets/images/base-octocat.svg)
+
+We can define which image to show depending on the browser color scheme (theme):
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
+
+To make an unordered list, precede each item with -, + or *
+- George Washington
+* John Adams
++ Thomas Jefferson
+
+To make an ordered list, precede each item with any number:
+1. James Madison
+1. James Monroe
+1. John Quincy Adams
+
+To create nested list, use indentation so that the inner list marker lays directly below the first letter of the outer level
+1. First list item
+   - First nested list item
+     - Second nested list item
+     - Second nested list item 2
+
+Here be a task list. Here we can refer other GitHub issues. To mark a task as closed, put x into square brackets. If a task description starts with ( - espace it like \(.
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+Can reference teams and people using @ prefix, and issues or pull request with # prefix.
+
+Can use emojis liek this:
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
+To create a new paragraph, leave an empty line.
+
+Can use footnotes using the following syntax:
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
+
+We can use alerts to emphasize important information
+
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
+Use backslash to escape Markdown formatting
+Let's rename \*our-new-project\* to \*our-old-project\*.
+
 
 
