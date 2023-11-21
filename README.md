@@ -144,5 +144,56 @@ We can use alerts to emphasize important information
 Use backslash to escape Markdown formatting
 Let's rename \*our-new-project\* to \*our-old-project\*.
 
+Use hyphen (-) and pipe (|) to create tables. Leave blank line before the table for correct rendering.
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+No need for perfect alignment in the code, just leave at least 3 hyphens in each column in the header row
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
+In the table, you can use formatting like links, inline code blocks and text styling
+
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
+Use colon to align content within the column
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
+To use pipe within a column content, use escaping
+
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
 
 
+We can use collapsed sections using 'details' tag. Use 'open' attribute to have the section expanded at start.
+
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
